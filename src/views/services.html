@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head.html') %>
+    <title><%= title%></title>
+</head>
+<body>
+    <div class="ajuste">
+        <div class="contenido">
+            <%- include('partials/navigation.html') %>
+            <div class="carousel">
+                    <div id="imagen">
+                    <div id="retroceder">BACK</div>
+                    <div id="avanzar">NEXT</div>
+                    <div id="play">PLAY</div>
+                    <div id="stop" disabled>STOP</div>
+                </div>
+            </div>
+            <div id="services">
+                <div class="arqui">
+                    <h3>ARCHITECTURE</h3>
+                    <p id="arq_des">Architectural design is about three things: people, space
+                        and light. Our skill is to understand
+                        each in order to create beautiful spaces, both for our private clients and for commercial
+                        property developers. We carefully manage every architectural
+                        design
+                        project from defining a brief, to design, construction and the eventual handover of a
+                        completed
+                        building.</p>
+                </div>
+                <div class="deve">
+                    <h3>DEVELOPER & INVESTOR SERVICES</h3>
+                    <p id="dev_des">
+                        Our commercial architecture and interior design team work with developers and investors that
+                        want to achieve a financial return from their property businesses. We have deep expertise in
+                        designing for property developers and private clients too and believe this enables us to
+                        design
+                        housing solutions that are commercially successful. We work at all stages of the development
+                        cycle, from site appraisal to working with your agents to market your development.
+                    </p>
+                </div>
+              <div class="interior">
+                <h3>INTERIOR DESIGN</h3>
+                <p id="int_des">
+                    Our interior design team works seamlessly with our Architects to deliver a luxury interior
+                    design service from concept to completion. With a strong contemporary style, we create
+                    fusions
+                    between clean architectural lines, textures and soft furnishings with a big emphasis on
+                    elegant,
+                    exciting materials that add depth and detail to a property. Our interior design team ethos
+                    is to
+                    design beautiful, yet comfortable spaces.
+                </p>
+              </div>
+               
+            </div>
+
+        </div>
+       
+    
+
+        <%- include('partials/footer.html') %>
+    </div>
+
+
+
+</body>
+
+</html>

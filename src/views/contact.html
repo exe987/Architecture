@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head.html')%>
+    <title><%=title%></title>
+</head>
+<body>
+    <div class="ajuste">
+        <%- include('partials/navigation.html') %>
+        <div class="formulario">
+            <form action="POST">
+               
+                <h3>IF YOU WANT TO WORK WITH US. SEND US A RENDER FOR WATCHING</h3>
+                <input type="text" name="name" placeholder="NAME AND LASTNAME" autofocus>
+                <input type="file" name="file" accept="image/png, .jpeg, .jpg, image/gif">
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+        <div class="contact">
+            <div class="phone">
+                <a href="#"><img src="icons/phone.svg" alt="phone"></a>
+                <p>011-15555555</p>
+            </div>
+            <div class="mail">
+                <a href="#"><img src="icons/mail.svg" alt="mail"></a>
+                <p>exe963@hotmail.com</p>
+            </div>
+        </div>
+        <div class="cont1">
+            <div class="leg">
+                <h3>LOCATION</h3>
+                <p>Santiago del Estero 872, Gral. Roca, Rio Negro, Argentina</p>
+            </div>
+            <div class="ima">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1303.0269188857167!2d-67.58279600965817!3d-39.0349782142281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1593650963468!5m2!1ses!2sar"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                    aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        <%- include('partials/footer.html') %>
+    </div>
+       
+</div>
+</div>
+</body>
+</html>
